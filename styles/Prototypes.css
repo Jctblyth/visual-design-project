@@ -1,0 +1,28 @@
+.image-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #ffff;
+	margin: 2%;
+	border-radius: 0.5%;
+}
+
+.image {
+	width: 700px;
+	padding: 10px
+	
+	}
+
+	h2 {
+	font-family: 'Cabin Sketch', cursive;
+	margin: 1.5em;
+	text-align: center
+}
+
+#body-text {
+font-family: 'Cabin Sketch', cursive;
+	font-size: 1em;
+	margin-right: 200px;
+	margin-left: 200px;
+	
+}

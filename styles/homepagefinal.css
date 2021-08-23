@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+/* DESKTOP STYLES  */
+
+.image-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #ffff;
+	margin: 2%;
+	border-radius: 0.5%;
+}
+
+.image {
+	width: 1000px;
+	padding: 10px
+	
+	}
+	/*margin: 10px;
+	height: 300px;
+	width: 475px;
+*/
+
+.poster{
+	height: 500px;
+	padding: 10px;
+	margin-bottom: 50px
+}
+
+
+
+.collectioncaption {
+	background-color: whitesmoke;
+	margin: 10px;
+	height: 300px;
+	width: 100px;
+}
+
+h2 {
+	font-family: 'Cabin Sketch', cursive;
+	margin: 1.5em;
+	text-align: center
+}
+
+#body-text {
+font-family: 'Cabin Sketch', cursive;
+	font-size: 1em;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-bottom: 50px
+	
+}
+
+#poster-list {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 1em;
+	margin-right: 200px;
+	margin-left: 200px;
+		margin-bottom: 50px
+}
+
+/* MOBILE STYLES  */
+
+@media screen and (max-width: 700px) {
+	.image {
+		margin: 10px;
+		height: 152px;
+		width: 240px;
+	}
+}
+
+/*@media screen and (min-width: 400px) {
+	.image:hover {
+		-webkit-transition: all 0.3s ease-in;
+		transition: 0.3s ease-in;
+		transform: scale(1.5);*/
+	}
+}
+@media screen and (max-width: 1046px) {
+	h2 {
+		text-align: center;
+	}
+}

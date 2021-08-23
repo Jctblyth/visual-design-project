@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Website showcasing archive photography with prints available for purchase"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/universalstyles.css" />
+		<link rel="stylesheet" href="./styles/contactus.css" />
+		<title>GIF</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+	 <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" 
+      rel="stylesheet"
+    />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<div class="overlay"></div>
+			<nav>
+				<a href="index.html">
+					<div class="home-button">
+						<h1>The photo shop</h1>
+					</div></a
+				>
+				<ul>
+				      <li> <a href="index.html">Home</a></li>
+          <li><a href="Prototypes .html">Mock Ups</a></li>
+          <li><a href="GIF.html">Animated GIF</a></li>
+          <li> <a href="rawimages.html">Original Images</a></li>
+						<a href="cart.html">
+							<ion-icon name="cart-outline"> </ion-icon>Cart<span
+								>0</span
+							>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="gif-container">
+			<h2>Animated GIF</h2>
+			<img
+        class="gif"
+        src="Images/GIFFINAL.gif"
+        alt ="A second photo of Londoners cooling off in the fountains of Trafalgar square during the 1954 heatwave"
+      />
+		</div>
+
+		   <div>
+      <p id="body-text">
+        I created a GIF which would be used in a social media campaign to promote the launch of the Tropicalia travel agency.
+
+
+
+I found a vintage map JPEG on Getty Images and manipulated the colours using Image - Adjustments - Colour Balance to give it a sepia hue. I also sourced a JPEG of a map pin and cut this out using the quick selection tool.
+
+
+
+I created 24 individual jpeg images by overlaying the letters, flowers, and map pins in the order I wanted them to appear. I then opened these as a stack in photoshop. I then opened the timelines and created a frame animation, creating frames from the layered jpegs I played around with the timing of each frame and decided I wanted the writing to appear quickly , to give the impression of the logo being typed, and then for the GIF to pause on the completed logo and completed map. 
+
+
+
+I saved for web as 128  with no dither
+      </p>
+    </div>
+
+		<footer>
+			<section id="get-weather">
+				<form>
+					<input
+						type="text"
+						name="weatherInput"
+						placeholder="Your location"
+					/>
+					<button id="weather-button">Shooting conditions</button>
+				</form>
+			</section>
+			<section id="weather-info"></section>
+		</footer>
+
+		<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+		<script src="./main.js"></script>
+	</body>
+</html>
